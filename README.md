@@ -3,7 +3,7 @@
 Este projeto é uma aplicação de rastreamento facial utilizando OpenCV em Python e controle de servomotores com Arduino. O programa detecta rostos em tempo real através da webcam e move os servomotores para acompanhar o movimento do rosto.
 
 Instalação
-Certifique-se de ter o Python instalado. Você pode baixá-lo em python.org.
+Certifique-se de ter o Python 3.10 instalado. Você pode baixá-lo em [python.org](https://www.npackd.org/p/org.python.Python64/3.10.1) .
 
 Instale as bibliotecas necessárias usando o pip:
 
@@ -13,7 +13,7 @@ pip install pyfirmata mediapipe opencv-python
 Conecte o Arduino ao computador e carregue o programa StandardFirmata ou similar no Arduino.
 
 Como Funciona
-Abra o arquivo trackingFace.py em um editor de texto ou IDE Python.
+Abra o arquivo seguidor_face_arduino_opencv.py em um editor de texto ou IDE Python.
 
 Conecte a placa Arduino ao computador através da porta USB.
 
@@ -21,7 +21,7 @@ Execute o script Python:
 
 bash
 Copy code
-python trackingFace.py
+pythonseguidor_face_arduino_opencv.py
 A webcam será ativada e o programa começará a rastrear rostos em tempo real.
 
 O programa moverá os servomotores horizontal e verticalmente para manter o rosto no centro da imagem da webcam.
